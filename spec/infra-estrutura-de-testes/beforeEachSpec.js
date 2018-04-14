@@ -1,4 +1,4 @@
-describe('Infra de testes', () => {
+describe('Infra de testes - beforeEach', () => {
 
     var contador = 0;
 
@@ -13,11 +13,11 @@ describe('Infra de testes', () => {
         contador++;
     });
 
-    it('Deve incrementar o contador para 1', () => {
+    it('Deve incrementar o contador para um', () => {
         expect(contador).toEqual(1);
     });
 
-    it('Deve incrementar o contatdor para 2', () => {
+    it('Deve incrementar o contatdor para dois', () => {
         expect(contador).toEqual(2);
     })
 
