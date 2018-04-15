@@ -1,5 +1,4 @@
 xdescribe('Infra de testes - desabilitando suites', () => {
-
     var contador = 0;
 
     /**
