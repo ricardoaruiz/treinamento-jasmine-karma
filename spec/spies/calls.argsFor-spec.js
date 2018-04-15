@@ -20,7 +20,7 @@ describe('Spies - calls.argsFor', () => {
         spyOn(Calculadora, 'somar');
     });
 
-    it('Deve demonstrar o uso do calls.count', () => {
+    it('Deve demonstrar o uso do calls.argsFor', () => {
         Calculadora.somar(1, 2);
         Calculadora.somar(1, 3);
         expect(Calculadora.somar.calls.argsFor(0)).toEqual([1, 2]);
